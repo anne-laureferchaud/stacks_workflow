@@ -535,7 +535,7 @@ awk '$1 < -0.4 {print $2}' samples.het.data > samples.het.ids
   - If your dataset contains many small populations, regroup samples into fewer and bigger
     groups to avoid strict and overly stochastic filtering
   - STACKS1: Make a copy of `05-stacks/batch_1.vcf` or `06-stacks_rx/batch_1.vcf`
-  - STACKS1: Make a copy of `05-stacks/populations.snps.vcf`
+  - STACKS2: Make a copy of `05-stacks/populations.snps.vcf`
   - Modify sample names (`POP1_sample` -> `Group1_POP1-sample`. Note that the underscore `_` becomes a dash `-`
 
 ### 4. Filter new VCF
